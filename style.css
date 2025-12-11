@@ -33,6 +33,12 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+
 .sizepx24 {
     font-size: 24px;
 }
@@ -135,4 +141,61 @@ h2 {
 
 .select-images img {
     width: 128px;
+}
+
+.menu {
+    background-image: url(./img/section_our_menu_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 120px;  
+}
+
+.menu-content {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.menu-content h2 {
+    margin-bottom: 64px;
+}
+
+.meal-images {
+    width: 352px;
+    height: 352px;
+}
+
+.tonkotsu {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.spicy-miso {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 80px;
+}
+
+.shio {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.meal-infos {
+
+}
+
+.table {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    color: #675E54;
 }
