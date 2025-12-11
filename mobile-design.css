@@ -1,0 +1,23 @@
+@media(max-width: 367px) {
+    h1 {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 44px;
+    }
+
+    h2 {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-family: "Economica", sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .responsiveDelete {
+        display: none;
+    }
+}
