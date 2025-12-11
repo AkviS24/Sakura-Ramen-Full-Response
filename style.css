@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+.content-container {
+    padding-left: 160px;
+    padding-right: 160px;
+    
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.economica {
+    font-family: "Economica", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 96px;
+}
+
+h2 {
+    color: #9F0908;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sizepx24 {
+    font-size: 24px;
+}
+
+.hero {
+    background-image: url(./img/hero_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+    height: 112px;
+}
+
+.header img {
+    width: 64px;
+    height: 64px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.phone {
+    background-color: #9F0908;
+    border: solid 1px white;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+
+.phone :hover {
+    background-color: #C00908;
+}
+
+.phone img {
+    padding: 2px;
+    height: 24px;
+    width: 24px;
+}
+
+.order {
+    margin-top: 120px;
+}
+
+.select {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.select-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.select-images p {
+    font-weight: bold;
+    font-size: 56px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.select-images img {
+    width: 128px;
+}
