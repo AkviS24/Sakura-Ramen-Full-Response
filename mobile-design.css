@@ -38,4 +38,12 @@
     .landing-page span {
         font-size: 16px;
     }
+
+    .order {
+        margin-top: 72px;
+    }
+
+    .select {
+        flex-direction: column;
+    }
 }
