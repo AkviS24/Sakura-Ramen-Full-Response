@@ -58,6 +58,7 @@ h3 {
     justify-content: center;
     flex-direction: column;
     padding-top: 50vh;
+    text-align: center;
 }
 
 .header {
