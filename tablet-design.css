@@ -20,4 +20,9 @@
     .responsiveDelete {
         display: none;
     }
+
+    .content-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 }
