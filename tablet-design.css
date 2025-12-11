@@ -17,6 +17,10 @@
         font-size: 32px;
     }
 
+    .sizepx24 {
+        font-size: 20px;
+    }
+
     .responsiveDelete {
         display: none;
     }
