@@ -1,3 +1,9 @@
+@media(max-width: 960px) {
+    .responsiveDelete {
+        display: none;
+    }
+}
+
 @media(max-width: 768px) {
     h1 {
         font-family: "Raleway", sans-serif;
@@ -21,10 +27,6 @@
         font-size: 20px;
     }
 
-    .responsiveDelete {
-        display: none;
-    }
-
     .content-container {
         padding-left: 24px;
         padding-right: 24px;
@@ -36,5 +38,14 @@
 
     .order {
         margin-top: 96px;
+    }
+
+    .meal-images {
+        width: 250px;
+        height: auto;
+    }
+
+    .spicy-miso {
+        flex-direction: row;
     }
 }
