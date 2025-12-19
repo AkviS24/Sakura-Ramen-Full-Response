@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -124,6 +125,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    gap: 20px;
 }
 
 .select-images {
